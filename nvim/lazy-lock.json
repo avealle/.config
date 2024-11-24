@@ -14,5 +14,6 @@
   "telescope.nvim": { "branch": "master", "commit": "85922dde3767e01d42a08e750a773effbffaea3e" },
   "vim-commentary": { "branch": "master", "commit": "64a654ef4a20db1727938338310209b6a63f60c9" },
   "vim-gitgutter": { "branch": "main", "commit": "7b0b5098e3e57be86bb96cfbf2b8902381eef57c" },
-  "vim-rspec": { "branch": "main", "commit": "c0251b2e40eba5c9fb145adb8896424fa11972da" }
+  "vim-rspec": { "branch": "main", "commit": "c0251b2e40eba5c9fb145adb8896424fa11972da" },
+  "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" }
 }
