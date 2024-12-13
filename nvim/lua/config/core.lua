@@ -34,6 +34,9 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 vim.keymap.set("n", "<SPACE>", "<leader>", { silent = true })
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>c", utils.toggle_color_column, { noremap = true, silent = true })
-
-
+vim.keymap.set(
+  "n",
+  "<leader>l",
+  utils.toggle_color_column,
+  { noremap = true, silent = true, desc = "Show (L)ine length with column" }
+)
