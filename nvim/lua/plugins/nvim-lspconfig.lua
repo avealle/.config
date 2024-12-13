@@ -32,12 +32,6 @@ return {
     -- Global LSP keymaps
     vim.keymap.set(
       "n",
-      "gd",
-      vim.lsp.buf.definition,
-      { noremap = true, silent = true, desc = "Go to Definition" }
-    )
-    vim.keymap.set(
-      "n",
       "K",
       vim.lsp.buf.hover,
       { noremap = true, silent = true, desc = "Hover Documentation" }
