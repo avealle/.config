@@ -62,5 +62,32 @@
     "reveal": "always",
     "reveal_target": "dock",
     "tags": ["test", "rspec"]
+  },
+  {
+    "label": "Capybara: Run nearest test in browser",
+    "command": "bspec $ZED_FILE:$ZED_ROW",
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "tags": ["test", "rspec", "capybara", "browser"]
+  },
+  {
+    "label": "Cursor",
+    "command": "cursor-tmux",
+    "reveal": "always",
+    "hide": "always",
+    "reveal_target": "center",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Cursor (new session)",
+    "command": "cursor-tmux",
+    "args": ["--new"],
+    "hide": "always",
+    "reveal": "always",
+    "reveal_target": "center",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false
   }
 ]

@@ -7,6 +7,29 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_line_height": "comfortable",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Macchiato"
+  },
+  "buffer_font_family": ".ZedMono",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    }
+  },
+  "scrollbar": {
+    "show": "never"
+  },
   "tab_bar": {
     "show": false
   },
@@ -14,8 +37,8 @@
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "Tokyo Night Storm",
-    "dark": "One Dark"
+    "light": "Catppuccin Macchiato",
+    "dark": "Catppuccin Macchiato"
   },
   "vim_mode": true,
   "vim_initial_mode": "normal",
@@ -27,7 +50,11 @@
   },
   "languages": {
     "Ruby": {
-      "language_servers": ["ruby-lsp", "rubocop"]
+      "language_servers": ["ruby-lsp", "!sorbet", "!steep"]
     }
+  },
+  "toolbar": {
+    // "breadcrumbs": false,
+    "quick_actions": false
   }
 }
